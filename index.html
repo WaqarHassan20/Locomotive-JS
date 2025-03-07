@@ -4,8 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Locomotive JS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello I am learning Locomotive JS</h1>
+    <div id="main" data-scroll-container>
+      <div id="page1" data-scroll></div>
+      <div id="page2" data-scroll data-scroll-speed="-2">
+        <img
+          src="https://images.unsplash.com/photo-1592163964712-9b710489ee54?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNpdmljfGVufDB8fDB8fHww"
+        />
+        <img
+          data-scroll
+          data-scroll-speed="25"
+          data-scroll-direction="horizontal"
+          src="https://images.unsplash.com/photo-1617073397915-c934cf34a76c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ymx1ZSUyMG1vZGVsfGVufDB8fDB8fHww"
+        />
+      </div>
+      <div id="page3" data-scroll></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
