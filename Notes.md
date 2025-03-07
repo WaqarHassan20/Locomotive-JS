@@ -15,5 +15,6 @@ Notes about the locomotive-scroll.js
        <img
           data-scroll                     --> " data-scroll data-scroll-speed="5"
           data-scroll-speed="5"
+          data-scroll-direction="horizontal"
           src="https://images.unsplash.com/photo-1617073397915-c934cf34a76c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ymx1ZSUyMG1vZGVsfGVufDB8fDB8fHww"
         />
